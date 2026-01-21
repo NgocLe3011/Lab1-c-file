@@ -27,6 +27,8 @@ void printsizes (void) { //create a funtion that can print out sizes
     printf("size of long: %zu bytes \n",sizeof(long)); //this line will print out the size of long
     printf("size of float: %zu bytes \n",sizeof(float)); //this line will print out the size of float
     printf("size of double: %zu bytes \n",sizeof(double)); //this line will print out the size of double
+    printf("size of pointer char: %zu bytes \n",sizeof(char*)); //this line will print out the size of pointer char
+    printf("size of pointer short: %zu bytes \n",sizeof(short*)); //this line will print out the size of pointer short
     printf("size of pointer int: %zu bytes \n",sizeof(int*)); //this line will print out the size of pointer int
     printf("size of pointer long: %zu bytes \n",sizeof(long*)); //this line will print out the size of pointer long
     printf("size of pointer float: %zu bytes \n",sizeof(float*)); //this line will print out the size of pointer float
